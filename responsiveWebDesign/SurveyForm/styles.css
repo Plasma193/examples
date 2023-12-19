@@ -1,0 +1,70 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 16px;
+  background-image: url('https://invent.kde.org/plasma/breeze/-/raw/51840ad0686cf1182ce0ee1810864a5725412e1b/wallpapers/Next/contents/images/5120x2880.png');
+  background-color: rgb(151, 22, 71);
+  color: rgb(236, 201, 190);
+}
+
+h1, p {
+  margin: 10px auto;
+  width: 60%vw;
+  display: block;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  height: 100vh;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 2em;
+  font-size: 1.1em;
+  background-color: rgba(151, 22, 71, .7); 
+}
+
+fieldset {
+  border: none;
+  padding: .5rem 0;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea,
+select {
+  margin: 5px 0 10px 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 5px;
+  border: 2px solid rgb(151, 22, 71);
+  outline: none;
+}
+
+input:focus, select:focus, textarea:focus {
+  border: 3px solid rgb(198, 13, 42);
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: rgb(236, 201, 190);
+  border-color: rgb(198, 13, 42);
+  min-width: 300px;
+}
+
+.inline {
+  display: inline;
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
