@@ -1,0 +1,34 @@
+body {
+  background: #1C1921;
+  color: #FFFFFF;
+  font-family: Helvetica;
+  margin: 0;
+  display: flex;
+  background-image: linear-gradient(#3D3943, #1C1921);
+}
+
+img {
+  width: 80%;
+  max-width: 100%;
+  display: block;
+  max-height: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  padding-top: 10px;
+}
+
+p[id="tribute-info"], p[id="tribute-link"] {
+  margin: 50px
+}
+
+a {
+  color: #96bfd9;
+}
+
